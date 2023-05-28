@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Разработчик веб и мультимедийных приложения</title>
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/video-js.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script defer src="assets/js/gsap.min.js"></script>
+    <script defer src="assets/js/jquery-3.7.0.min.js"></script>
+    <script defer src="assets/js/ScrollTrigger.min.js"></script>
+    <script defer src="assets/js/ScrollSmoother.min.js"></script>
+    <script defer src="assets/js/main.js"></script>
+
+
+</head>
+
+<body>
+
+
+    <!-- Header -->
+    <header class="header container">
+        <a href="https://vk.com/vgppkofficial" target="_blank">Жизнь колледжа</a>
+    </header>
+
+    <!-- Main -->
+    <main class="wrapper">
+        <!-- Custom cursor -->
+        <div class="cursor"></div>
+        <div class="cursor-follower"></div>
+
+        <div class="content">
+
+            <!-- Main section -->
+            <section class="section main">
+                <!-- Overlay bg -->
+                <div class="overlay first"></div>
+                <div class="overlay second"></div>
+                <div class="overlay third"></div>
+
+                <div class="container">
+
+                    <div class="main__title-container">
+                        <h1 class="main__title" data-speed=".75">Разработчик веб <br> и мультимедийных <br> приложений
+                        </h1>
+                    </div>
+
+                    <!-- Parallax items -->
+                    <div class="parallax-wrapper">
+                        <div class="parallax">
+                            <div class="parallax__item"></div>
+                            <div class="parallax__item"></div>
+                            <div class="parallax__item"></div>
+                            <div class="parallax__item"></div>
+                            <div class="parallax__item" data-speed=".6"></div>
+                            <div class="parallax__item"></div>
+                            <div class="parallax__item"></div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </section>
+
+
+
+            <!-- Scrolling line -->
+            <div class="scrollingText__first">
+                <h2 id="scrollingText">
+                    ВОРОНЕЖСКИЙ ГОСУДАРСТВЕННЫЙ <span class="stroked">ПРОФЕССИОНАЛЬНО-ПЕДАГОГИЧЕСКИЙ КОЛЛЕДЖ</span>
+                </h2>
+            </div>
+
+
+            <div class="bg-second-wrapper">
+
+                <!-- Video section -->
+                <section class="section video">
+                    <div class="container flex-center-h video-anim" data-speed="0.92">
+                        <video id="vid1" class="video-js" controls width="1500px" height="650px"
+                            poster="assets/images/video-poster.jpg"
+                            data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://youtu.be/8W5l4r_Azfs"}] }'>
+                        </video>
+                    </div>
+                </section>
+
+                <!-- Scrolling line 2 -->
+                <div class="scrollingText__first">
+                    <h2 id="scrollingText2">
+                        РАЗРАБОТЧИК ВЕБ И МУЛЬТИМЕДИЙНЫХ<span class="stroked"> ПРИЛОЖЕНИЙ</span>
+                    </h2>
+                </div>
+
+                <!-- Section accordeon -->
+                <section id="section" class="section accordeon container">
+                    <div class="content">
+                        <div class="section__item">
+                            <h2 class="title accordeon-title">Чему вы <span class="stroke"> научитесь</span></h1>
+                                <ul class="accordion_one_item">
+                                    <li class="accordion__item active">
+                                        <h3 class="accordion__header">
+                                            <span class="accordion__bl">
+                                                <span class="accordion__bl-line"></span>
+                                                <span class="accordion__bl-line"></span>
+                                            </span>
+                                            <span class="accordion__title">В области проектирования и разработки
+                                                информационных систем</span>
+                                        </h3>
+                                        <div class="accordion__body">
+                                            <p class="accordion__descript">
+                                                <ul class="accordion__descript-list">
+                                                    <li class="accordion-list__item">Выполнять разработку спецификаций
+                                                        отдельных компонент;</li>
+                                                    <li class="accordion-list__item">Осуществлять разработку кода
+                                                        программного продукта на основе готовых;</li>
+                                                    <li class="accordion-list__item">Cпецификаций на уровне модуля;</li>
+                                                    <li class="accordion-list__item">Выполнять отладку программных
+                                                        модулей с использованием специализированных программных средств;
+                                                    </li>
+                                                    <li class="accordion-list__item">Выполнять тестирование программных
+                                                        модулей;</li>
+                                                    <li class="accordion-list__item">Осуществлять оптимизацию
+                                                        программного кода модуля;</li>
+                                                    <li class="accordion-list__item">Выполнять разработку спецификаций
+                                                        отдельных компонент;</li>
+                                                    <li class="accordion-list__item">Разрабатывать компоненты проектной
+                                                        и технической документации с использованием графических языков
+                                                        спецификаций.</li>
+                                                </ul>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="accordion__item">
+                                        <h3 class="accordion__header">
+                                            <span class="accordion__bl">
+                                                <span class="accordion__bl-line"></span>
+                                                <span class="accordion__bl-line"></span>
+                                            </span>
+                                            <span class="accordion__title">В области разработки дизайна
+                                                веб-приложений</span>
+                                        </h3>
+                                        <div class="accordion__body">
+                                            <p class="accordion__descript">
+                                                <ul class="accordion__descript-list">
+                                                    <li class="accordion-list__item">Разрабатывать дизайн-концепции веб-приложений в соответствии с корпоративным 
+                                                        стилем заказчика;
+                                                        </li>
+                                                    <li class="accordion-list__item">Формировать требования к дизайну веб-приложений на основе анализа предметной 
+                                                        области и целевой аудитории;
+                                                        </li>
+                                                    <li class="accordion-list__item">Осуществлять разработку дизайна веб-приложения с учетом современных 
+                                                        тенденций в области веб-разработки.</li>
+                                                </ul>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="accordion__item">
+                                        <h3 class="accordion__header">
+                                            <span class="accordion__bl">
+                                                <span class="accordion__bl-line"></span>
+                                                <span class="accordion__bl-line"></span>
+                                            </span>
+                                            <span class="accordion__title">В области проектирования, разработки и
+                                                оптимизации веб-приложений</span>
+                                        </h3>
+                                        <div class="accordion__body">
+                                            <p class="accordion__descript">
+                                                <ul class="accordion__descript-list">
+                                                    <li class="accordion-list__item">Разрабатывать техническое задание на веб-приложение в соответствии с 
+                                                        требованиями заказчика;</li>
+                                                    <li class="accordion-list__item">Разрабатывать веб-приложение в соответствии с техническим заданием;</li>
+                                                    <li class="accordion-list__item">Разрабатывать интерфейс пользователя веб-приложений в соответствии с 
+                                                        техническим заданием;</li>
+                                                    <li class="accordion-list__item">Осуществлять техническое сопровождение и восстановление веб-приложений в 
+                                                        соответствии с техническим заданием;
+                                                    </li>
+                                                    <li class="accordion-list__item">Производить тестирование разработанного вебприложения;</li>
+                                                    <li class="accordion-list__item">Размещать веб приложения в сети в соответствии с техническим заданием;</li>
+                                                    <li class="accordion-list__item">Осуществлять сбор статистической информации о работе веб-приложений для 
+                                                        анализа эффективности его работы;</li>
+                                                    <li class="accordion-list__item">Модернизировать веб-приложение с учетом правил и норм подготовки информации 
+                                                        для поисковых систем;</li>
+                                                    <li class="accordion-list__item">Реализовывать мероприятия по продвижению веб-приложений в сети Интернет.</li>
+                                                </ul>
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Slider section -->
+                <div class="container">
+                    <h2 class="title gsap_slider-title">Участие в конкурсах <span class="stroke">профессионального
+                            мастерства</span></h1>
+                </div>
+                <section class="section gsap_slider">
+                    <div class="content">
+                        <div class="section__slider gsap_h">
+                            <div class="gsap__bl">
+                                <div class="gsap__inner">
+
+                                    <div class="gsap__track">
+                                        <div class="gsap__item" data-title="1">
+                                            <img src="assets/images/slider/img_slider_1.jpg" alt="1">
+                                        </div>
+                                        <div class="gsap__item" data-title="2">
+                                            <img src="assets/images/slider/img_slider_2.jpg" alt="2">
+                                        </div>
+                                        <div class="gsap__item" data-title="3">
+                                            <img src="assets/images/slider/img_slider_3.jpg" alt="3">
+                                        </div>
+                                        <div class="gsap__item" data-title="4">
+                                            <img src="assets/images/slider/img_slider_4.jpg" alt="4">
+                                        </div>
+                                        <div class="gsap__item" data-title="5">
+                                            <img src="assets/images/slider/img_slider_5.jpg" alt="5">
+                                        </div>
+                                        <div class="gsap__item" data-title="6">
+                                            <img src="assets/images/slider/img_slider_6.jpg" alt="6">
+                                        </div>
+                                        <div class="gsap__item" data-title="7">
+                                            <img src="assets/images/slider/img_slider_7.jpg" alt="6">
+                                        </div>
+                                        <div class="gsap__item" data-title="8">
+                                            <img src="assets/images/slider/img_slider_8.jpg" alt="6">
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+
+
+            <!-- Learn section -->
+            <section class="section learn gsap__anim serv container">
+                <h2 class="title learn-title">Вы сможете<span class="stroke"> работать</span></h1>
+                    <div class="parallax__wrapp">
+                        <div class="content">
+                            <div class="serv__wrapp">
+
+                                <ul class="serv__list">
+                                    <li class="serv__item">WEB-программистом
+                                        <span class="serv__item-img">
+                                            <img src="assets/images/learn/web-programming.jpg" alt="WEB-программистом">
+                                        </span>
+                                    </li>
+                                    <li class="serv__item">HTML-верстальщиком
+                                        <span class="serv__item-img">
+                                            <img src="assets/images/learn/html.jpg" alt="HTML-верстальщиком">
+                                        </span>
+                                    </li>
+                                    <li class="serv__item">Разработчиком мультимедийных приложений
+                                        <span class="serv__item-img">
+                                            <img src="assets/images/learn/multimedia.jpg"
+                                                alt="Разработчиком мультимедийных приложений">
+                                        </span>
+                                    </li>
+                                    <li class="serv__item">Консультантом по информационным системам
+                                        <span class="serv__item-img">
+                                            <img src="assets/images/learn/it-consult.jpg"
+                                                alt="Консультантом по информационным системам">
+                                        </span>
+                                    </li>
+                                    <li class="serv__item">Тестировщиком
+                                        <span class="serv__item-img">
+                                            <img src="assets/images/learn/testing.jpg" alt="Тестировщиком">
+                                        </span>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
+
+
+
+
+    <script src="assets/js/video.min.js"></script>
+    <script src="assets/js/Youtube.min.js"></script>
+</body>
+
+</html>
